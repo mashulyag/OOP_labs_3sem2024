@@ -1,0 +1,8 @@
+_deps
+CMakeFiles
+bin
+cmake_install.cmake
+Makefile
+CMakeCache.txt
+CTestTestfile.cmake
+build
