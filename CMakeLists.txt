@@ -19,7 +19,7 @@ FetchContent_MakeAvailable(googletest)
 if(DEFINED ENV{GITHUB_HEAD_REF})
   set(BRANCH_NAME $ENV{GITHUB_HEAD_REF})
 else()
-  set(BRANCH_NAME "lab1") 
+  set(BRANCH_NAME "laba1") 
 endif()
 
 if(EXISTS "labs/${BRANCH_NAME}")
