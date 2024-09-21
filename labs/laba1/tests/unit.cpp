@@ -11,7 +11,7 @@ TEST(CountVowelsTest, NoVowels) {
 }
 
 TEST(CountVowelsTest, AllVowels) {
-    EXPECT_EQ(countVowels("i am mariya"), 6);
+    EXPECT_EQ(countVowels("aeiouy"), 6);
 }
 
 TEST(CountVowelsTest, MixedString) {
